@@ -1,6 +1,7 @@
 class Solution {
     public String mergeAlternately(String word1, String word2) {
-        
+        //문자열 조작이 빈번한 경우 Stirng보다 StringBuilder가 더 효율적
+
         StringBuilder result = new StringBuilder();
         
         int idx=0;
